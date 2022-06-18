@@ -10,7 +10,7 @@ categories = ["api-bindings", "embedded"]
 readme = "README.md"
 
 [dependencies]
-libftdi1-sys = "1.0.0"
+libftdi1-sys = { version = "1.0.0", features = ["bindgen"] }
 
 [features]
 default = []
